@@ -45,6 +45,13 @@
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
             tap-ms = <100>;
          };
+
+        scroll_encoder_rgb: scroll_encoder_rgb {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_BRD>, <&rgb_ug RGB_BRI>;
+            tap-ms = <100>;
+         };
     };
     keymap {
         compatible = "zmk,keymap";
@@ -97,7 +104,7 @@
 &kp C_MUTE                 &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0            &kp SPACE          &kp ENTER        &kp ENTER   &to 0       &kp EQUAL   &kp RIGHT_SHIFT   &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&scroll_encoder_rgb>;
             display-name = "BT&RGB";
         };
     };
