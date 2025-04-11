@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - '&td'
+  - '&td LSHIFT CAPSLOCK'
   - A
   - S
   - D
@@ -92,7 +92,7 @@ layers:
   - END
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&td'
+  - '&td LSHIFT CAPSLOCK'
   - (
   - )
   - '#'
@@ -157,7 +157,7 @@ layers:
   - KP 9
   - {t: '-', s: _}
   - {t: ']', s: '}'}
-  - '&td'
+  - '&td LSHIFT CAPSLOCK'
   - (
   - )
   - '#'
@@ -222,7 +222,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&td'
+  - '&td LSHIFT CAPSLOCK'
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:transfer$$', type: trans}
