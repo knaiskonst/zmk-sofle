@@ -69,10 +69,10 @@
         layer_2 {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2             &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6       &kp F7      &kp F8      &kp F9     &kp F10           &trans
-&kp TAB     &kp LEFT_BRACKET &kp RIGHT_BRACKET  &kp MINUS        &kp EQUAL        &kp KP_MULTIPLY    &mmv MOVE_DOWN   &kp SLASH    &kp KP_N7   &kp KP_N8   &kp KP_N9  &kp MINUS         &kp EQUAL
-&kp LSHFT   &kp LPAR         &kp RPAR           &kp HASH         &kp EXCLAMATION  &kp SLASH          &mmv MOVE_LEFT   &kp ASTERISK &kp KP_N4   &kp KP_N5   &kp KP_N6  &kp EQUAL         &kp RIGHT_BRACKET
-&kp LCTRL   &trans           &trans             &trans           &trans           &trans             &mmv MOVE_RIGHT  &trans       &kp KP_N1   &kp KP_N2   &kp KP_N3  &trans            &trans
-&kp C_MUTE  &kp LEFT_GUI     &kp LEFT_ALT       &kp GRAVE        &to 0            &trans             &mkp LCLK        &kp SPACE    &kp ENTER   &to 3    &kp KP_N0  &kp RIGHT_SHIFT   &kp DELETE
+&kp TAB     &kp LEFT_BRACKET &kp RIGHT_BRACKET  &kp MINUS        &kp EQUAL        &kp KP_MULTIPLY    &mmv MOVE_DOWN   &kp SLASH    &kp KP_N7   &kp KP_N8   &kp KP_N9  &kp MINUS         &kp RIGHT_BRACKET
+&kp LSHFT   &kp LPAR         &kp RPAR           &kp HASH         &kp EXCLAMATION  &kp SLASH          &mmv MOVE_LEFT   &kp ASTERISK &kp KP_N4   &kp KP_N5   &kp KP_N6  &kp EQUAL         &kp LEFT_BRACKET
+&kp LCTRL   &trans           &trans             &trans           &trans           &trans             &mmv MOVE_RIGHT  &trans       &kp KP_N1   &kp KP_N2   &kp KP_N3  &trans            &trans 
+&kp C_MUTE  &kp LEFT_GUI     &kp LEFT_ALT       &kp GRAVE        &to 0            &trans             &mkp LCLK        &kp SPACE    &kp ENTER   &to 3       &kp KP_N0  &kp DELETE
             >;
 
             display-name = "SYM & NUM";
