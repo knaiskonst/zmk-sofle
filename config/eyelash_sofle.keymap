@@ -38,12 +38,11 @@
         tap-ms = <100>;
     };
     
-    td: tapdance{
+    td: tapdance {
         compatible: "zmk,behavior-tab-dance";
-        label = "SQuote";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
-        bindings = <&sk RSHIFT>, <&kp CAPSLOCK>;
+        bindings = <&kp RSHIFT>, <&kp CAPSLOCK>;
     };
 
     keymap {
