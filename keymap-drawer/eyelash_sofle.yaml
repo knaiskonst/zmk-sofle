@@ -56,16 +56,16 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '`', s: '~'}
-  - {t: SYM & NAV, h: toggle}
+  - {t: '=', s: +}
+  - {t: SYM&NAV, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: SYM & NUM, h: toggle}
+  - {t: SYM&NAV, h: toggle}
+  - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  SYM & NAV:
+  SYM&NAV:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -121,16 +121,16 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '`', s: '~'}
+  - {t: '=', s: +}
   - {t: QWERTY, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: SYM & NUM, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: SYM&NUM, h: toggle}
+  - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  SYM & NUM:
+  SYM&NUM:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -186,16 +186,16 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '`', s: '~'}
+  - {t: '=', s: +}
   - {t: QWERTY, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: BT & RGB, h: toggle}
-  - KP 0
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: BT&RGB, h: toggle}
+  - {t: '=', s: +}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  BT & RGB:
+  BT&RGB:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -251,12 +251,12 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '`', s: '~'}
+  - {t: '=', s: +}
   - {t: QWERTY, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: QWERTY, h: toggle}
+  - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
