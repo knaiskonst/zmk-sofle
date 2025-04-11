@@ -37,13 +37,6 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
         tap-ms = <100>;
     };
-    
-    td: tapdance {
-        compatible: "zmk,behavior-tab-dance";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
-        bindings = <&kp RSHIFT>, <&kp CAPSLOCK>;
-    };
 
     keymap {
         compatible = "zmk,keymap";
