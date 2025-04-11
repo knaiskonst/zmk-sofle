@@ -1,6 +1,6 @@
 file_format: "1"
-id: knais_sofle
-name: Knais Sofle
+id: eyelash_sofle
+name: Eyelash Sofle
 url: https://github.com/a741725193/zmk-sofle
 type: board
 arch: arm
@@ -11,5 +11,5 @@ outputs:
   - usb
   - ble
 siblings:
-  - knais_sofle_left
-  - knais_sofle_right
+  - eyelash_sofle_left
+  - eyelash_sofle_right
