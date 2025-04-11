@@ -63,7 +63,7 @@
             >;
 
             display-name = "SYM & NAV";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         layer_2 {
@@ -76,7 +76,7 @@
             >;
 
             display-name = "SYM & NUM";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         layer_3 {
@@ -88,7 +88,7 @@
 &kp C_MUTE  &kp LEFT_GUI     &kp LEFT_ALT       &kp GRAVE        &to 0           &trans              &mkp LCLK        &kp SPACE   &kp ENTER   &to 0       &kp RIGHT_SHIFT   &kp DELETE
             >;
 
-            sensor-bindings = <&rgb_ug RGB_BRI RGB_BRD>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "BT & RGB";
         };
     };
