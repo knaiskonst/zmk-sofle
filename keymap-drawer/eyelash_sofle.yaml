@@ -84,7 +84,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - KP MULTIPLY
+  - '*'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
@@ -149,7 +149,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - KP MULTIPLY
+  - '*'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: /, s: '?'}
   - KP 7
