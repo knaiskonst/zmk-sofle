@@ -39,18 +39,25 @@
             bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
         };
 
+        td_c: tapdance_click {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
+        };
+
         scroll_encoder: scroll_encoder {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-            tap-ms = <100>;
+            tap-ms = <10>;
          };
 
         scroll_encoder_rgb: scroll_encoder_rgb {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_BRD>, <&rgb_ug RGB_BRI>;
-            tap-ms = <100>;
+            tap-ms = <10>;
          };
     };
     keymap {
