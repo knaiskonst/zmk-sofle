@@ -40,10 +40,10 @@
         };
 
         td_c: tapdance_click {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-hold-tap";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
+            tapping-term-ms = <500>;
+            bindings = <&kp LCLK>, <&kp RCLK>;
         };
 
         scroll_encoder: scroll_encoder {
@@ -82,7 +82,7 @@
 &kp TAB                    &kp LEFT_BRACKET &kp RIGHT_BRACKET  &kp MINUS        &kp EQUAL        &kp ASTERISK       &mmv MOVE_DOWN   &trans       &kp HOME         &trans           &kp END         &kp PRINTSCREEN   &trans
 &td                        &kp LPAR         &kp RPAR           &kp HASH         &kp EXCLAMATION  &kp SLASH          &mmv MOVE_LEFT   &trans       &kp PAGE_UP      &kp UP_ARROW     &kp PAGE_DOWN   &trans            &trans
 &kp LCTRL                  &trans           &trans             &trans           &trans           &trans             &mmv MOVE_RIGHT  &trans       &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT_ARROW &trans            &trans
-&kp C_MUTE                 &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0            &kp SPACE          &kp ENTER        &kp ENTER    &to 2      &kp EQUAL  &kp RIGHT_SHIFT  &kp DELETE
+&kp C_MUTE                 &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0            &kp SPACE          &td_c            &kp ENTER    &to 2      &kp EQUAL  &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             display-name = "SYM&NAV";
@@ -95,11 +95,11 @@
 &kp TAB                    &kp LEFT_BRACKET &kp RIGHT_BRACKET  &kp MINUS        &kp EQUAL        &kp ASTERISK       &mmv MOVE_DOWN   &kp SLASH    &kp KP_N7   &kp KP_N8   &kp KP_N9        &kp MINUS         &kp RIGHT_BRACKET
 &td                        &kp LPAR         &kp RPAR           &kp HASH         &kp EXCLAMATION  &kp SLASH          &mmv MOVE_LEFT   &kp ASTERISK &kp KP_N4   &kp KP_N5   &kp KP_N6        &kp EQUAL         &kp LEFT_BRACKET
 &kp LCTRL                  &trans           &trans             &trans           &trans           &trans             &mmv MOVE_RIGHT  &trans       &kp KP_N1   &kp KP_N2   &kp KP_N3        &trans            &trans 
-&kp C_MUTE                 &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0            &kp SPACE          &kp ENTER        &kp ENTER    &to 3       &kp EQUAL   &kp RIGHT_SHIFT  &kp DELETE
+&kp C_MUTE                 &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0            &kp SPACE          &td_c            &kp ENTER    &to 3       &kp EQUAL   &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             display-name = "SYM&NUM";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
@@ -108,7 +108,7 @@
 &kp TAB                    &bt BT_CLR       &bt BT_CLR_ALL     &trans           &trans          &trans              &mmv MOVE_DOWN   &trans      &trans      &trans      &trans            &trans       &trans
 &td                        &out OUT_USB     &out OUT_BLE       &trans           &rgb_ug RGB_BRD &rgb_ug RGB_BRI     &mmv MOVE_LEFT   &trans      &trans      &trans      &trans            &trans       &trans
 &kp LCTRL                  &rgb_ug RGB_OFF  &rgb_ug RGB_ON     &rgb_ug RGB_EFF  &rgb_ug RGB_EFR &rgb_ug RGB_SPI     &mmv MOVE_RIGHT  &trans      &trans      &sys_reset  &soft_off         &bootloader  &trans
-&kp C_MUTE                 &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0            &kp SPACE          &kp ENTER        &kp ENTER   &to 0       &kp EQUAL   &kp RIGHT_SHIFT   &kp DELETE
+&kp C_MUTE                 &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0            &kp SPACE          &td_c            &kp ENTER   &to 0       &kp EQUAL   &kp RIGHT_SHIFT   &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder_rgb>;
