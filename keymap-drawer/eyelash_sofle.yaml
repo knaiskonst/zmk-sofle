@@ -124,7 +124,7 @@ layers:
   - {t: '-', s: _}
   - {t: QWERTY, h: toggle}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&td_c'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: SYM&NUM, h: toggle}
   - {t: '=', s: +}
@@ -189,7 +189,7 @@ layers:
   - {t: '-', s: _}
   - {t: QWERTY, h: toggle}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&td_c'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: BT&RGB, h: toggle}
   - {t: '=', s: +}
@@ -254,7 +254,7 @@ layers:
   - {t: '-', s: _}
   - {t: QWERTY, h: toggle}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&td_c'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: QWERTY, h: toggle}
   - {t: '=', s: +}
