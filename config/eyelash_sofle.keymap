@@ -43,7 +43,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <0>;
             tapping-term-ms = <500>;
-            bindings = <&kp LCLK>, <&kp RCLK>;
+            bindings = <&mkp LCLK>, <&mkp RCLK>;
         };
 
         scroll_encoder: scroll_encoder {
