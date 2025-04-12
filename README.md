@@ -1,13 +1,12 @@
 # Update List
 
-- 2024/12/21
-  1. Added support for zmk-studio (just refresh the left hand to use).
-- 2024/10/24
-  1. Modified power supply mode to reduce power consumption.
-  2. Fixed the automatic shut-off feature for RGB power supply.
+- 2025/04/12
+  1. Update mouse operations with lclick and rclick
+  2. Update 
+- 2025/04/11
+  1. Forked from [a741725193/zmk-sofle](https://github.com/a741725193/zmk-sofle)
+  2. Updated the keymap with double tap shift to capslock and desired configuration
 
-> If your keyboard was updated before October 24, please update to the latest firmware.
-> 
 ---
 
 # Sofle Keymap
