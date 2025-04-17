@@ -143,7 +143,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -208,7 +208,7 @@ layers:
   - $$mdi:progress-download$$
   - '&studio_unlock'
   - F10
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
