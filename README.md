@@ -1,11 +1,13 @@
-# Update List
-
-- 2025/04/12
-  1. Update mouse operations with lclick and rclick
-  2. Update 
-- 2025/04/11
-  1. Forked from [a741725193/zmk-sofle](https://github.com/a741725193/zmk-sofle)
-  2. Updated the keymap with double tap shift to capslock and desired configuration
+# ZMK code for sofle keyboard
+  - Forked from [a741725193/zmk-sofle](https://github.com/a741725193/zmk-sofle)
+  
+## Features 
+  - Double tap shift for caps lock
+  - 4 layers of with different functionality
+    - QWERTY: Basic qwerty lettering and top numbering
+    - Symbols and Navigation: On the left arrow keys, home/end, page up/down, symbols on the right
+    - Symbols and Numpad: On the left symbols, on the right numpad
+    - RGB and Bluetooth: RGB on/off and modes. Change colours on the scroll wheel. Bluetooth options on the left, mouse functionality on the right    
 
 ---
 
