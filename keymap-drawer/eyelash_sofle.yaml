@@ -206,7 +206,7 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&soft_off'
   - $$mdi:progress-download$$
-  - F9
+  - '&studio_unlock'
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
