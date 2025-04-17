@@ -40,14 +40,6 @@
             bindings = <&kp>, <&kp>;
         };
 
-        td_c: tapdance_click {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <0>;
-            tapping-term-ms = <500>;
-            bindings = <&mkp LCLK>, <&mkp RCLK>;
-            display-name = "Click-Tap";
-        };
-
         scroll_encoder: scroll_encoder {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
@@ -58,7 +50,7 @@
         scroll_encoder_rgb: scroll_encoder_rgb {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&rgb_ug RGB_BRD>, <&rgb_ug RGB_BRI>;
+            bindings = <&rgb_ug RGB_HUD>, <&rgb_ug RGB_HUI>;
             tap-ms = <10>;
          };
     };
@@ -82,8 +74,8 @@
             bindings = <
 &kp GRAVE                  &kp F1           &kp F2             &kp F3           &kp F4           &kp F5             &kp UP_ARROW     &kp F6             &kp F7              &kp F8           &kp F9           &kp F10            &kp F11
 &kp TAB                    &trans           &kp HOME           &trans           &kp END          &kp PRINTSCREEN    &kp DOWN_ARROW   &kp LEFT_BRACKET   &kp RIGHT_BRACKET   &kp MINUS        &kp EQUAL        &kp ASTERISK       &kp F12
-&td LSHIFT CAPSLOCK        &trans           &kp PAGE_UP        &kp UP_ARROW     &kp PAGE_DOWN    &trans             &kp LEFT_ARROW   &kp LPAR           &kp RPAR            &kp HASH         &kp EXCLAMATION  &kp SLASH          &trans
-&kp LCTRL                  &trans           &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans             &kp RIGHT_ARROW  &trans             &trans              &trans           &trans           &trans             &trans
+&td LSHIFT CAPSLOCK        &kp A            &kp PAGE_UP        &kp UP_ARROW     &kp PAGE_DOWN    &trans             &kp LEFT_ARROW   &kp LPAR           &kp RPAR            &kp HASH         &kp EXCLAMATION  &kp SLASH          &trans
+&kp LCTRL                  &kp Z            &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans             &kp RIGHT_ARROW  &trans             &trans              &trans           &trans           &trans             &trans
 &kp C_MUTE                 &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0            &kp SPACE          &kp ENTER        &kp ENTER          &to 2               &kp EQUAL        &kp RIGHT_SHIFT  &kp DELETE
             >;
             display-name = "SYM&NAV";
@@ -92,11 +84,11 @@
 
         layer_2 {
             bindings = <
-&kp GRAVE                  &kp F1           &kp F2             &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6       &kp F7      &kp F8      &kp F9           &kp F10           &trans
-&kp TAB                    &kp LEFT_BRACKET &kp RIGHT_BRACKET  &kp MINUS        &kp EQUAL        &kp ASTERISK       &mmv MOVE_DOWN   &kp SLASH    &kp KP_N7   &kp KP_N8   &kp KP_N9        &kp MINUS         &kp RIGHT_BRACKET
-&td LSHIFT CAPSLOCK        &kp LPAR         &kp RPAR           &kp HASH         &kp EXCLAMATION  &kp SLASH          &mmv MOVE_LEFT   &kp ASTERISK &kp KP_N4   &kp KP_N5   &kp KP_N6        &kp EQUAL         &kp LEFT_BRACKET
-&kp LCTRL                  &trans           &trans             &trans           &trans           &trans             &mmv MOVE_RIGHT  &trans       &kp KP_N1   &kp KP_N2   &kp KP_N3        &trans            &trans 
-&kp C_MUTE                 &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0            &kp SPACE          &td_c            &kp ENTER    &to 3       &kp EQUAL   &kp KP_N0        &kp DELETE
+&kp GRAVE                  &kp F1           &kp F2             &kp F3           &kp F4           &kp F5             &kp UP_ARROW     &kp F6       &kp F7      &kp F8      &kp F9           &kp F10           &trans
+&kp TAB                    &kp LEFT_BRACKET &kp RIGHT_BRACKET  &kp MINUS        &kp EQUAL        &kp ASTERISK       &kp DOWN_ARROW   &kp SLASH    &kp KP_N7   &kp KP_N8   &kp KP_N9        &kp MINUS         &kp RIGHT_BRACKET
+&td LSHIFT CAPSLOCK        &kp LPAR         &kp RPAR           &kp HASH         &kp EXCLAMATION  &kp SLASH          &kp LEFT_ARROW   &kp ASTERISK &kp KP_N4   &kp KP_N5   &kp KP_N6        &kp EQUAL         &kp LEFT_BRACKET
+&kp LCTRL                  &trans           &trans             &trans           &trans           &trans             &kp RIGHT_ARROW  &trans       &kp KP_N1   &kp KP_N2   &kp KP_N3        &trans            &trans 
+&kp C_MUTE                 &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0            &kp SPACE          &kp ENTER        &kp ENTER    &to 3       &kp EQUAL   &kp KP_N0        &kp DELETE
             >;
 
             display-name = "SYM&NUM";
@@ -105,11 +97,11 @@
 
         layer_3 {
             bindings = <
-&kp TILDE                  &bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3    &bt BT_SEL 4        &mmv MOVE_UP     &kp F6      &kp F7      &kp F8      &kp F9            &kp F10      &trans
+&kp TILDE                  &bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3    &bt BT_SEL 4        &mmv MOVE_UP     &sys_reset  &soft_off   &bootloader &kp F9            &kp F10      &trans
 &kp TAB                    &bt BT_CLR       &bt BT_CLR_ALL     &trans           &trans          &trans              &mmv MOVE_DOWN   &trans      &trans      &trans      &trans            &trans       &trans
-&td LSHIFT CAPSLOCK        &out OUT_USB     &out OUT_BLE       &trans           &rgb_ug RGB_BRD &rgb_ug RGB_BRI     &mmv MOVE_LEFT   &trans      &trans      &trans      &trans            &trans       &trans
-&kp LCTRL                  &rgb_ug RGB_OFF  &rgb_ug RGB_ON     &rgb_ug RGB_EFF  &rgb_ug RGB_EFR &rgb_ug RGB_SPI     &mmv MOVE_RIGHT  &trans      &trans      &sys_reset  &soft_off         &bootloader  &trans
-&kp C_MUTE                 &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0           &kp SPACE           &td_c            &kp ENTER   &to 0       &kp EQUAL   &kp RIGHT_SHIFT   &kp DELETE
+&td LSHIFT CAPSLOCK        &out OUT_USB     &out OUT_BLE       &trans           &rgb_ug RGB_BRD &rgb_ug RGB_BRI     &mmv MOVE_LEFT   &mkp LCLK   &mkp MCLK   &mkp RCLK   &trans            &trans       &trans
+&kp LCTRL                  &rgb_ug RGB_OFF  &rgb_ug RGB_ON     &rgb_ug RGB_EFF  &rgb_ug RGB_EFR &rgb_ug RGB_SPI     &mmv MOVE_RIGHT  &mkp MB4    &mkp MB4    &trans      &trans            &trans       &trans
+&rgb_ug RGB_TOG            &kp LEFT_GUI     &kp LEFT_ALT       &kp MINUS        &to 0           &kp SPACE           &mkp LCLK        &kp ENTER   &to 0       &kp EQUAL   &kp RIGHT_SHIFT   &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder_rgb>;
