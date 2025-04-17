@@ -152,9 +152,9 @@ layers:
   - '*'
   - $$mdi:arrow-down-bold$$
   - {t: /, s: '?'}
-  - KP 7
-  - KP 8
-  - KP 9
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - {t: '-', s: _}
   - {t: ']', s: '}'}
   - '&td'
@@ -165,9 +165,9 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:arrow-left-bold$$
   - '*'
-  - KP 4
-  - KP 5
-  - KP 6
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-control$$
@@ -178,9 +178,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP 1
-  - KP 2
-  - KP 3
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PLAY PAUSE
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: BT&RGB, h: toggle}
   - {t: '=', s: +}
-  - KP 0
+  - {t: '0', s: )}
   - $$mdi:backspace-reverse-outline$$
   BT&RGB:
   - '~'
