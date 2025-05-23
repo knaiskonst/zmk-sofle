@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: SYM&NAV, h: toggle}
+  - '&td_to'
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
@@ -126,7 +126,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: SYM&NUM, h: toggle}
+  - '&td_to'
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
@@ -191,7 +191,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: BT&RGB, h: toggle}
+  - '&td_to'
   - {t: '=', s: +}
   - {t: '0', s: )}
   - $$mdi:backspace-reverse-outline$$
@@ -256,7 +256,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: QWERTY, h: toggle}
+  - '&td_to'
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
