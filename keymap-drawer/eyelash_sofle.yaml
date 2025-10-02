@@ -182,7 +182,7 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&ENTER'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - PLAY PAUSE
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
@@ -247,7 +247,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&ENTER'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - RGB TOG
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
