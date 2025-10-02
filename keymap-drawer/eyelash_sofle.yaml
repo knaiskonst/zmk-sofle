@@ -84,7 +84,7 @@ layers:
   - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
-  - none
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
