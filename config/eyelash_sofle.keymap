@@ -61,7 +61,6 @@
             tap-ms = <10>;
          };
 
-
         bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
