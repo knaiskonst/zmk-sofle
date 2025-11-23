@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - HOME
@@ -143,7 +143,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:keyboard-tab$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -208,7 +208,7 @@ layers:
   - $$mdi:progress-download$$
   - '&studio_unlock'
   - F10
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:keyboard-tab$$
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
