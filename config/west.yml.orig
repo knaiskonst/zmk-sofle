@@ -1,0 +1,39 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+      # Additional modules containing boards/shields/custom code can be listed here as well.
+      # See:
+      # - https://zmk.dev/docs/features/modules
+      # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+<<<<<<< HEAD
+  #  - name: gpeye
+  #    url-base: https://github.com/GPeye
+=======
+    - name: gpeye
+      url-base: https://github.com/GPeye
+    - name: crystalplanet
+      url-base: https://github.com/crystalplanet
+>>>>>>> cf1fbcf77b9bdbcb1810c0dde85e4755999ff551
+  projects:
+   # - name: mario-peripheral-animation
+   #   remote: gpeye
+   #    revision: main 
+    - name: eyelash_sofle
+      url: https://github.com/a741725193/zmk-sofle
+<<<<<<< HEAD
+=======
+      revision: refactor
+    - name: urchin-peripheral-animation
+      remote: gpeye
+      revision: main 
+    - name: zmk-rgb-fx
+      remote: crystalplanet
+>>>>>>> cf1fbcf77b9bdbcb1810c0dde85e4755999ff551
+      revision: main
+    - name: zmk
+      remote: zmkfirmware
+      revision: v0.3.0
+      import: app/west.yml
+  self:
+    path: boards
