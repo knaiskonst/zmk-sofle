@@ -1,5 +1,6 @@
 # Update List
 
+- test
 - 2024/12/21
   1. Added support for zmk-studio (just refresh the left hand to use).
 - 2024/10/24
